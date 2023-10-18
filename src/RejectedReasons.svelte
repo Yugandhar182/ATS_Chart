@@ -143,7 +143,7 @@
   .container1 {
     background-color: white;
     width: 1400px;
-	  height: 430px;
+    height: 450px;
     margin-left:40px;
     margin-top:120px;
        
