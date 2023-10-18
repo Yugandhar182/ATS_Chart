@@ -5,7 +5,7 @@
 
     import Calendar from './DateRangePicker.svelte';
     import Reject from './RejectedReasons.svelte';
-    import Metric from './metric.svelte';
+    import Metric from './Metric.svelte';
     import TimeToFill from './TimeToFill.svelte';
     import Placement from "./PlacementByUser.svelte"
   </script>
