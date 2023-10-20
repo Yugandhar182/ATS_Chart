@@ -125,8 +125,8 @@
                
              }
          },
-             width: '1390px',
-             height: '400px',
+        
+             height: '350px',
              series: [
                  {
                      type: 'Column',
@@ -216,24 +216,46 @@
    });
  </script>
  
- <div class="Container1">
-     <h1 class="h1">Time to fill</h1>
- <div id="container2"></div>
- </div>
- <style>
-     .Container1{
-         background-color:white;
-         width: 1400px;
-         height: 430px;
-         margin-left:40px;
-         margin-top: 80px;
-        
-     }
-     .h1{
-     font-size: 17px;
-     font-weight: bold;
-    margin-bottom: 20px;
+<div class="card card-fluid">
+    <div class="card-header border-0">
+        Time to Fill
+    </div>
+    <div class="card-body">
+        <div id="container2"></div>
+    </div>
+</div>
+  
+
+<style>
+       
+
+ .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
  
-  }
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(20,20,31,.12);
+    border-radius: 0.25rem;
+    margin: 40px;
+    top:5px;
+    
+
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+.card-header {
+  font-size: 16px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
  
- </style>
+
+  padding: 15px; /* Adjust the padding as needed */
+ 
+}
+
+</style>
